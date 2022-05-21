@@ -21,7 +21,7 @@ function solution1(arr) {
         let temp = arr.slice(i+1,arr.length)
         for (let x of temp) {
             if (arr[i] > x) {
-                c++
+                count++
             }
         }
         result.push(count)

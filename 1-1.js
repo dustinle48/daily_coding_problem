@@ -36,4 +36,5 @@ function solution2(arr) {
     console.log(result)
 }
 
+solution1(a)
 solution2(a)
